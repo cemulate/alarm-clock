@@ -1,0 +1,15 @@
+// Settings
+
+$callout-radius: 5px;
+
+@import '~foundation-sites/scss/foundation.scss';
+
+@include foundation-global-styles;
+@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-menu;
+@include foundation-top-bar;
+@include foundation-callout;
+@include foundation-button;
+@include foundation-close-button;
+@include foundation-forms;
