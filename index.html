@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="description" content="simple alarm clock with Vue and Tone.js">
+  <title>Alarm Clock</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Non-chrome compatibility :( ... not for long? -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/document-register-element/1.4.1/document-register-element.js"></script>
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Alarm Clock</li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="https://github.com/cemulate/alarm-clock">View on Github</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="grid-container">
+      <alarm-manager></alarm-manager>
+  </div>
+
+  <script src="app.bundle.js"></script>
+</body>
+
+</html>
